@@ -1,8 +1,8 @@
-const Discord = require('discord.js'); //Requiring Discord.js module.
-const client = new Discord.Client(); //Creating and assigning the Discord.js Client constructor.
-client.interaction = {}; //Creating interaction object
-const DiscordButtons = require('discord-buttons'); //Requiring Discord-BUttons module.
-const ButtonPages = require('discord-button-pages'); //Requiring Discord-Button-Pages module.
+const Discord = require('discord.js'); 
+const client = new Discord.Client(); 
+client.interaction = {}; 
+const DiscordButtons = require('discord-buttons'); 
+const ButtonPages = require('discord-button-pages'); 
 DiscordButtons(client);
 
 client.on('ready', () => {
